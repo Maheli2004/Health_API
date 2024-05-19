@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                <style>
+        /* Style for the whole body, setting the gradient background */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Ensures the height of the viewport */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to bottom right, #a2d2ff, #ffafcc); /* Light blue to pink gradient */
+        }
+
+        /* Style for the container with a professional border */
+        .container {
+            padding: 20px; /* Padding around the text */
+            border: 2px dashed #4a4a4a; /* Dashed border with grayish color */
+            border-radius: 10px; /* Rounded corners */
+            background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+            text-align: center; /* Center the text */
+            width: 60%; /* Width of the container */
+            max-width: 600px; /* Maximum width of the container */
+        }
+        
+        /* Animation keyframes for the heading */
+        @keyframes fadeIn {
+            from {
+                opacity: 0; /* Start invisible */
+            }
+            to {
+                opacity: 1; /* End fully visible */
+            }
+        }
+
+        /* Style for the header topic */
+        h1 {font-family: 'Arial', sans-serif; /* Professional font */
+            font-size: 4em; /* Larger font size */
+            color: #333; /* Dark text color */
+            margin: 0; /* No extra space around the heading */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
+            animation: fadeIn 2s ease-in-out; /* Apply fade-in animation over 2 seconds */
+        }
+    </style>
+    
+    </head>
+    <body>
+        <h1>Welcome to my Health API!</h1>
+    </body>
+</html>
